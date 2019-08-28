@@ -4,7 +4,7 @@
     <p>{{zujianqiantao}}</p>
     <!-- 组件传值 -->
     <!-- message采用的是props的静态传值方式 -->
-    <!-- @getMseeage="getMsg"采用的是emit通信（主要用于子组件向父组件传值）
+    <!-- @getMseeage="showMsg"采用的是emit通信（主要用于子组件向父组件传值）
         同时也是自定义事件的调用方式
      -->
     <zizizujian mess-age="hello world" @getMessage="showMsg"></zizizujian>

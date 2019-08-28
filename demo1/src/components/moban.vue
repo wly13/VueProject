@@ -18,7 +18,7 @@ export default {
   components: { zujianqiantao },
   mounted() {
     console.log(this.$refs.msg);
-    this.$refs.msg.getMsg("我是子组件a");
+    this.$refs.msg.getMsg("我是子组件abc");
   },
 };
 </script>
